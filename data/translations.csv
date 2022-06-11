@@ -1,0 +1,273 @@
+key,Russian,English
+app_version,Версия приложения {app_version},Version: {app_version}
+loading,Загрузка…,Loading…
+terms_and_conditions,Terms & Conditions,Terms & Conditions
+privacy_policy,Privacy Policy,Privacy Policy
+home_page.title,@:today,@:today
+empty_card.now,@:mood сейчас,@:mood now
+empty_card.part_of_day,@:mood {part_of_day_in_instrumental_case},@:mood {part_of_day_in_instrumental_case}
+bottom_navigation_bar.home,Главная,Home
+bottom_navigation_bar.chart,График,Chart
+bottom_navigation_bar.events,События,Events
+bottom_navigation_bar.calendar,Календарь,Calendar
+subscription_banner.title,Бесплатный доступ,Free access
+subscription_banner.description,Все бета-тестеры могут использовать приложение бесплатно.,All beta testers can use the app for free.
+profile_screen.title,Настройки,Settings
+profile_screen.menu.account,Аккаунт,Account
+profile_screen.menu.account.not_authorized,Не авторизован,Not authorized
+profile_screen.menu.notifications,Уведомления,Notifications
+profile_screen.menu.notifications.no_notifications,@:no_notifications,@:no_notifications
+profile_screen.menu.notifications.permissions_missing,Отсутствуют разрешения,Permissions missing
+profile_screen.menu.language,Язык,Language
+profile_screen.menu.about,О приложении,About
+profile_screen.menu.contact,Связаться,Contact us
+about_screen.title,@:profile_screen.menu.about,@:profile_screen.menu.about
+about_screen.menu.terms,@:terms_and_conditions,@:terms_and_conditions
+about_screen.menu.privacy,@:privacy_policy,@:privacy_policy
+about_screen.menu.onboarding,Пройти обучение,User manual
+language_screen.title,@:profile_screen.menu.language,@:profile_screen.menu.language
+events_page.title,События за всё время,Events for all time
+event_influence.in_moment,В моменте,In the moment
+event_influence.in_future,Потом,In future
+event_influence_level.super_down,Значительно хуже,Much worse
+event_influence_level.down,Хуже,Worse
+event_influence_level.neutral,Не меняется,No change
+event_influence_level.up,Лучше,Better
+event_influence_level.super_up,Значительно лучше,Much better
+frequency_diagram.title.event,{chart_mode} с событием «{event}»,{chart_mode} with «{event}»
+frequency_diagram.title.emotion,{chart_mode} с эмоцией «{emotion}»,{chart_mode} with «{emotion}»
+mood_chart_page.popup.filter.title,Отображение,Display
+mood_chart_page.popup.filter.all_button.title,Все события,All events
+mood_chart_page.popup.filter.action_button.title,Применить,Apply
+mood_chart_page.tooltip.details.more,Подробнее,More details
+mood_chart_page.tooltip.details.yet,Еще {overflow_events_count}…,More {overflow_events_count}…
+mood_assessment_screen.title.now,Как настроение?,How are you feeling?
+mood_assessment_screen.title.part_of_day.today,@:mood {part_of_day_in_instrumental_case},@:mood {part_of_day_in_instrumental_case}
+mood_assessment_screen.title.part_of_day.yesterday,@:yesterday {part_of_day_in_instrumental_case},@:yesterday {part_of_day_in_instrumental_case}
+mood_assessment_screen.title.part_of_day.date,{date} {part_of_day_in_instrumental_case},{date} {part_of_day_in_instrumental_case}
+mood_assessment_screen.title.update.today.with_time,@:today {part_of_day_in_instrumental_case} в {time},@:today {part_of_day_in_instrumental_case} at {time}
+mood_assessment_screen.title.update.today.without_time,@:mood {part_of_day_in_instrumental_case},@:mood {part_of_day_in_instrumental_case}
+mood_assessment_screen.title.update.yesterday.with_time,@:yesterday {part_of_day_in_instrumental_case} в {time},@:yesterday {part_of_day_in_instrumental_case} at {time}
+mood_assessment_screen.title.update.yesterday.without_time,@:yesterday {part_of_day_in_instrumental_case},@:yesterday {part_of_day_in_instrumental_case}
+mood_assessment_screen.title.update.date.with_time,{date} {part_of_day_in_instrumental_case} в {time},{date} {part_of_day_in_instrumental_case} at {time}
+mood_assessment_screen.title.update.date.without_time,{date} {part_of_day_in_instrumental_case},{date} {part_of_day_in_instrumental_case}
+mood_assessment_screen.action_button.title,Оценить,Assess
+mood_assessment_screen.delete_popup.title,Удалить оценку?,Delete the assessment?
+select_events_screen.title,@:events,@:events
+select_events_screen.create_event_button.title,Добавить новое событие,Add new event
+select_events_screen.search.hint_text,Поиск событий,Events search
+select_events_screen.search.not_found,Нет события\n«{search_text}»,The is no {search_text} event
+select_events_screen.subtitle.recent,Недавние события,Recent events
+select_events_screen.subtitle.all,Все события,All events
+user_event_title_screen.title.create,Новое событие,New event
+user_event_title_screen.title.update,Изменение события,Change event
+user_event_title_screen.delete_popup.title,Удалить событие «{event}»,"Delete event ""{event}"""
+user_event_title_screen.text_length_limit,Текст не должен превышать 27 символов,Text must not exceed 27 characters
+user_event_title_screen.input.hint_text,Введите название события,Enter event name
+user_event_select_emoji_screen.title,Иконка события,Event Icon
+select_emotions_screen.title,Эмоции,Emotions
+select_emotions_screen.stress_level.title,Уровень стресса,Stress level
+select_emotions_screen.stress_level.tooltip,Уровень стресса по 7-ми бальной шкале.,The level of stress on a scale of 1 to 7
+select_emotions_screen.basic_emotions.title,Базовые эмоции,Basic emotions
+select_emotions_screen.basic_emotions.tooltip,"Базовые эмоции человека (радость, страх, злость и грусть) разной степени интенсивности.\nНапример сильное чувство радости соответствует эмоции «@:emotion.happy-3».","Basic human emotions (joy, fear, anger and sadness) of varying degrees of intensity.\nFor example, a strong feeling of joy corresponds to the emotion ""@:emotion.happy-3""."
+select_emotions_screen.society.title,Отношение к людям,Attitude towards people
+select_emotions_screen.society.tooltip,Что ты испытываешь к людям в данный момент.,How you feel about people at the moment
+select_emotions_screen.self_rating.title,Самооценка,Self-esteem
+select_emotions_screen.self_rating.tooltip,Насколько ты уверен в себе.\n(пропусти если не ощущаешь особой уверенности или неуверенности),How confident you are.\n(Ignore if you don't feel confident or insecure)
+select_emotions_screen.concentration.title,Концентрация,Concentration
+select_emotions_screen.concentration.tooltip,Насколько ты сконцентрирован.\n(пропусти если концентрация в норме),How concentrated you are.\n(Ignore if concentration is normal)
+select_emotions_screen.other.title,Остальные,Others
+select_emotions_screen.other.tooltip,Здесь приведены все остальные эмоции.\nЕсли нужной эмоции нет выбери наиболее подходящую.,"All other emotes are listed here.\nIf the desired emote is not available, choose the most appropriate one."
+select_emotions_screen.stress_slider.low,Низкий,Low
+select_emotions_screen.stress_slider.high,Высокий,High
+note_screen.title,Заметка,Note
+note_screen.tooltip,Оставь свою заметку…,Enter your note...
+note_screen.description,Заметки помогают вспомнить чем было\nвызвано твое настроение. Все твои заметки\nудобно просматривать в календаре.,Notes help you remember the reasons for your mood. All your notes are conveniently viewed in the calendar.
+notifications_screen.title,@:profile_screen.menu.notifications,@:profile_screen.menu.notifications
+notifications_screen.popup.title,Выбери время,Set notification time
+email_to_support.subject,Хочу сообщить о проблеме!,I want to report a problem!
+account_screen.title,@:profile_screen.menu.account,@:profile_screen.menu.account
+account_screen.exit_popup.title,Выйти из аккаунта?,Do you want to sign out?
+account_screen.exit_popup.action_button_text,Выйти,Sign out
+onboarding.title.1,Эмоциональное здоровье,Emotional health
+onboarding.title.2,Влияния и события,Influences and events
+onboarding.title.3,Анализируй и наблюдай,Analyze and observe
+onboarding.text.1,"Отмечай настроение в течение дня, это помогает лучше понимать себя и свои чувства.","Mark your mood throughout the day, you will have a better understanding of yourself and your feelings"
+onboarding.text.2,"Добавляй события и следи, как они влияют на настроение в моменте и в перспективе.",Add events and see how they affect the mood in the moment and in the future.
+onboarding.text.3,"Убедись, как простое наблюдение за настроением улучшает эмоциональный баланс и помогает лучше справляться со стрессом.",See how simply observing your mood improves your emotional balance and helps you manage stress better.
+onboarding.action_button.title,Начать,Start
+sign_in_with_socials_screen.title,Трекер твоего настроения,Your mood tracker
+sign_in_with_socials_screen.email_button.title,Войти через почту,Login via email
+sign_in_with_socials_screen.google_button.title,Войти через Google,Login with Google
+register_with_email_screen.title,Регистрация,Registration
+register_with_email_screen.error.email_already_in_use,Почта уже занята,Email already in use
+register_with_email_screen.error.invalid_email,@:error.invalid_email,@:error.invalid_email
+register_with_email_screen.error.too_many_requests,@:error.too_many_requests,@:error.too_many_requests
+register_with_email_screen.error.unknown,Не удалось зарегистрироваться,Failed to register
+register_with_email_screen.action_button.title,Зарегистрироваться,Register
+sign_in_with_email_screen.title,Авторизация через почту,Login via email
+sign_in_with_email_screen.error.user_not_found,@:error.user_not_found,@:error.user_not_found
+sign_in_with_email_screen.error.invalid_email,@:error.invalid_email,@:error.invalid_email
+sign_in_with_email_screen.error.too_many_requests,@:error.too_many_requests,@:error.too_many_requests
+sign_in_with_email_screen.error.wrong_password,Неверный пароль,Wrong password
+sign_in_with_email_screen.error.unknown,Не удалось авторизоваться,Failed to login
+sign_in_with_email_screen.enter_button.title,Войти,Login
+sign_in_with_email_screen.register_button.title,Регистрация,Register
+sign_in_with_email_screen.forgot_password_button.title,Забыл пароль,Forgot password?
+restore_password_screen.title,Восстановление пароля,Password recovery
+restore_password_screen.action_button.title,Восстановить,Restore
+restore_password_screen.error.user_not_found,@:error.user_not_found,@:error.user_not_found
+restore_password_screen.error.invalid_email,@:error.invalid_email,@:error.invalid_email
+restore_password_screen.error.too_many_requests,@:error.too_many_requests,@:error.too_many_requests
+restore_password_screen.error.unknown,Не удалось восстановить пароль,Failed to recover password
+error.user_not_found,Пользователь не найден,User not found
+error.invalid_email,Неверный формат почты,Invalid email
+error.too_many_requests,Слишком много запросов,Too many requests
+events_was_not_used_message.events.title,Добавляй события,Add events
+events_was_not_used_message.events.subtitle,Здесь ты увидишь влияние\n событий на настроение,Here you will see the influence\n of events on your mood
+events_was_not_used_message.emotions.title,Добавляй эмоции,Add emotions
+events_was_not_used_message.emotions.subtitle,Здесь ты увидишь влияние\n эмоций на настроение,Here you will see the influence\n of emotions on your mood
+mood,Настроение,Mood
+energy,Энергия,Energy
+events,События,Events
+emotions,Эмоции,Emotions
+notes,Заметки,Notes
+done,Готово,Done
+save,Сохранить,Save
+delete,Удалить,Delete
+edit,Изменить,Edit
+cancel,Отмена,Cancel
+next,Далее,Next
+create,Создать,Create
+today,Сегодня,Today
+yesterday,Вчера,Yesterday
+period.week,Неделя,Week
+period.two_weeks,2 недели,2 weeks
+period.month,Месяц,Month
+period.all_time,Всё время,All time
+mood.1,Ужасное,Terrible
+mood.2,Плохое,Bad
+mood.3,Не очень,Not very well
+mood.4,Нормальное,Normal
+mood.5,Хорошее,Good
+mood.6,Отличное,Great
+mood.7,Восхитительное,Adorable
+energy.1,Полностью выжат,Wiped out
+energy.2,Очень мало энергии,Energy is very low
+energy.3,Мало энергии,Energy is low
+energy.4,Энергия в норме,Energy is normal
+energy.5,Много энергии,Energy is high
+energy.6,Очень много энергии,Energy is very high
+energy.7,Гиперактивнсть,Hyperactivity
+energy_short.1,Полностью выжат,Wiped out
+energy_short.2,Очень мало,Very low
+energy_short.3,Мало,Low
+energy_short.4,В норме,Normal
+energy_short.5,Много,High
+energy_short.6,Очень много,Very high
+energy_short.7,Гиперактивнсть,Hyperactivity
+weekday.1,Пн,Mon
+weekday.2,Вт,Tues
+weekday.3,Ср,Wed
+weekday.4,Чт,Thurs
+weekday.5,Пт,Fri
+weekday.6,Сб,Sat
+weekday.7,Вс,Sun
+month.1,Январь,January
+month.2,Февраль,February
+month.3,Март,March
+month.4,Апрель,April
+month.5,Май,May
+month.6,Июнь,June
+month.7,Июль,July
+month.8,Август,August
+month.9,Сентябрь,September
+month.10,Октябрь,October
+month.11,Ноябрь,November
+month.12,Декабрь,December
+month_in_parent_case.1,января,January
+month_in_parent_case.2,февраля,February
+month_in_parent_case.3,марта,March
+month_in_parent_case.4,апреля,April
+month_in_parent_case.5,мая,May
+month_in_parent_case.6,июня,June
+month_in_parent_case.7,июля,July
+month_in_parent_case.8,августа,August
+month_in_parent_case.9,сентября,September
+month_in_parent_case.10,октября,October
+month_in_parent_case.11,ноября,November
+month_in_parent_case.12,декабря,December
+part_of_day.1,Утро,Morning
+part_of_day.2,День,Afternoon
+part_of_day.3,Вечер,Evening
+part_of_day.0,Ночь,Night
+part_of_day_in_instrumental_case.1,утром,in the morning
+part_of_day_in_instrumental_case.2,днем,in the afternoon
+part_of_day_in_instrumental_case.3,вечером,in the evening
+part_of_day_in_instrumental_case.0,ночью,at night
+emotion.happy-1,Безмятежность,Serenity
+emotion.happy-2,Радость,Joy
+emotion.happy-3,Восторг,Delight
+emotion.scared-1,Тревога,Anxiety
+emotion.scared-2,Страх,Fear
+emotion.scared-3,Ужас,Horror
+emotion.angry-1,Раздражение,Irritation
+emotion.angry-2,Злость,Anger
+emotion.angry-3,Ярость,Fury
+emotion.sad-1,Печаль,Upset
+emotion.sad-2,Грусть,Sadness
+emotion.sad-3,Горе,Misery
+emotion.dislike,Неприязнь,Dislike
+emotion.indifferent,Безразличие,Indifference
+emotion.sympathy,Симпатия,Sympathy
+emotion.uncertainty,Неуверенность,Uncertainty
+emotion.certainty,Уверенность,Confidence
+emotion.distraction,Рассеяность,Distraction
+emotion.concentration,Концентрация,Concentration
+emotion.boring,Скука,Boredom
+emotion.alone,Одиночество,Loneliness
+emotion.excited,Возбуждение,Excitement
+emotion.satisfied,Удовлетворение,Satisfaction
+emotion.surprised,Удивление,Surprise
+event.alcohol,Алкоголь,Alcohol
+event.alone,Одиночество,Loneliness
+event.angry,Злость,Angry
+event.anxiety,Тревога,Anxiety
+event.apaty,Апатия,Apathy
+event.bad_dream,Плохой сон,Bad dream
+event.boring,Скучно,Boring
+event.conflict,Конфликт,Conflict
+event.cooking,Готовка,Cooking
+event.games,Видеоигры,Video games
+event.good_dream,Хороший сон,Good dream
+event.good_food,Хорошая еда,Good food
+event.good_weather,Хорошая погода,Good weather
+event.inspiration,Вдохновение,Inspiration
+event.joy,Радость,Joy
+event.lemon,Выжат как лимон,Wiped out
+event.meditation,Медитация,Meditation
+event.migraine,Мигрень,Migraine
+event.movie,Фильм,Movie
+event.music,Музыка,Music
+event.rain,Дождь,Rain
+event.relax,Отдых,Relax
+event.sick,Болезнь,Sickness
+event.sport,Спорт,Sport
+event.stress,Стресс,Stress
+event.sweet,Сладкое,Sweet
+event.tour,Прогулка,Promenade
+event.woke_up_late,Поздно проснулся,Woke up late
+event.work,Работа,Work
+language.current,@:language.russian,@:language.english
+language.russian,Русский,Русский
+language.english,English,English
+email_input.error.is_empty,Введите почту,Enter your email
+email_input.error.is_not_valid,Неверный формат почты,Invalid email
+email_input.hint_text,Почта,Email
+password_input.error.is_empty,Введите пароль,Enter your password
+password_input.error.short_password,Пароль должен быть не короче 8 символов,Password must be at least 8 characters
+password_input.hint_text,Пароль,Password
+notifications_screen.enable_notifications,Включить уведомления,Enable notifications
+notifications_screen.skip_button.title,Пропустить,Skip
+notifications_screen.no_notifications,@:no_notifications,@:no_notifications
+no_notifications,Нет уведомлений,No notifications
