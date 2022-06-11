@@ -26,4 +26,4 @@ class CsvToJsonConverter:
 
     def _save_json(self, json_dict, path_to_json):
         with open(path_to_json, 'w') as json_file:
-            json_file.write(json.dumps(json_dict, indent=2))
+            json_file.write(json.dumps(json_dict, indent=2, ensure_ascii=False))
