@@ -12,7 +12,7 @@ bottom_navigation_bar.events,События,Events
 bottom_navigation_bar.calendar,Календарь,Calendar
 subscription_banner.title,Бесплатный доступ,Free access
 subscription_banner.description,Все бета-тестеры могут использовать приложение бесплатно.,All beta testers can use the app for free.
-profile_screen.title,Настройки,Settings
+profile_screen.title,Профиль,Profile
 profile_screen.menu.account,Аккаунт,Account
 profile_screen.menu.account.not_authorized,Не авторизован,Not authorized
 profile_screen.menu.notifications,Уведомления,Notifications
@@ -267,6 +267,14 @@ email_input.hint_text,Почта,Email
 password_input.error.is_empty,Введите пароль,Enter your password
 password_input.error.short_password,Пароль должен быть не короче 8 символов,Password must be at least 8 characters
 password_input.hint_text,Пароль,Password
+account_screen.delete_account_button.title,Удалить аккаунт,--
+account_screen.delete_account_first_popup.title,Удаление аккаунта,--
+account_screen.delete_account_first_popup.secondary,Вы уверены что хотите удалить аккаунт и все ваши данные?,--
+account_screen.delete_account_first_popup.action_button_text,Я уверен,--
+account_screen.delete_account_first_popup.cancel_button_text,"Нет, стоп!",--
+account_screen.delete_account_second_popup.title,Удалить аккаунт\nи данные?,--
+account_screen.delete_account_second_popup.action_button_text,@:delete,@:delete
+delete_account_screen.account_deletion_in_progress,Идет удаление аккаунта,Account deletion in progress
 notifications_screen.enable_notifications,Включить уведомления,Enable notifications
 notifications_screen.skip_button.title,Пропустить,Skip
 notifications_screen.no_notifications,@:no_notifications,@:no_notifications

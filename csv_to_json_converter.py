@@ -5,6 +5,17 @@ class CsvToJsonConverter:
     def __init__(self):
         pass
 
+    def clear_csv_from_empty_strings(self, path_to_csv):
+        new_file_data=""
+        with open(path_to_csv) as csv_file:
+            for row in csv_file:
+                is_line_empty = row == ',,\n'
+                if not  is_line_empty:
+                    new_file_data += row
+
+        with open(path_to_csv, 'w') as csv_file:
+            csv_file.write(new_file_data)
+
     def convert(self, path_to_csv, path_to_ru_json, path_to_en_json):
         csv_rows = self._load_csv(path_to_csv)
         ru_json_dict = self._csv_rows_to_dict(csv_rows, 'key', 'Russian')
@@ -22,8 +33,9 @@ class CsvToJsonConverter:
         new_dict = {}
         for row in csv_rows:
             key = row[key_column]
-            value = row[value_column]
-            new_dict[key] = value
+            if key != '':
+                value = row[value_column]
+                new_dict[key] = value
         return new_dict
 
     def _save_json(self, json_dict, path_to_json):
