@@ -21,9 +21,12 @@ class CsvToJsonConverter:
     def _csv_rows_to_dict(self, csv_rows, key_column, value_column):
         new_dict = {}
         for row in csv_rows:
-            new_dict[row[key_column]] = row[value_column]
+            key = row[key_column]
+            value = row[value_column]
+            new_dict[key] = value
         return new_dict
 
     def _save_json(self, json_dict, path_to_json):
         with open(path_to_json, 'w') as json_file:
-            json_file.write(json.dumps(json_dict, indent=2, ensure_ascii=False))
+            json_dump = json.dumps(json_dict, indent=2, ensure_ascii=False)
+            json_file.write(str(json_dump).replace('\\\\', '\\'))
