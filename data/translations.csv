@@ -267,15 +267,29 @@ email_input.hint_text,Почта,Email
 password_input.error.is_empty,Введите пароль,Enter your password
 password_input.error.short_password,Пароль должен быть не короче 8 символов,Password must be at least 8 characters
 password_input.hint_text,Пароль,Password
-account_screen.delete_account_button.title,Удалить аккаунт,--
-account_screen.delete_account_first_popup.title,Удаление аккаунта,--
-account_screen.delete_account_first_popup.secondary,Вы уверены что хотите удалить аккаунт и все ваши данные?,--
-account_screen.delete_account_first_popup.action_button_text,Я уверен,--
-account_screen.delete_account_first_popup.cancel_button_text,"Нет, стоп!",--
-account_screen.delete_account_second_popup.title,Удалить аккаунт\nи данные?,--
-account_screen.delete_account_second_popup.action_button_text,@:delete,@:delete
-delete_account_screen.account_deletion_in_progress,Идет удаление аккаунта,Account deletion in progress
 notifications_screen.enable_notifications,Включить уведомления,Enable notifications
 notifications_screen.skip_button.title,Пропустить,Skip
 notifications_screen.no_notifications,@:no_notifications,@:no_notifications
 no_notifications,Нет уведомлений,No notifications
+account_screen.delete_account_button.title,Удалить аккаунт,Delete account
+account_screen.delete_account_first_popup.title,Удаление аккаунта,Account deletion
+account_screen.delete_account_first_popup.secondary,Вы уверены что хотите удалить аккаунт и все связанные с ним данные?,Are you sure you want to delete your account and all data associated with it?
+account_screen.delete_account_first_popup.action_button_text,Я уверен,I'm sure
+account_screen.delete_account_second_popup.title,Удалить аккаунт\nи данные?,Delete account\nand data?
+account_screen.delete_account_with_password_popup.title,Введите пароль\nдля удаления аккаунта,Enter your password\nto delete your account
+account_deletion_done.title.success,Ваш аккаунт и данные были удалены,Your account and data have been deleted
+account_deletion_done.title.error,Не удалось удалить аккаунт,Failed to delete account
+account_deletion_done.action_button.success,Хорошо,Done
+account_deletion_done.action_button.error,Повторить позже,Repeat later
+account_deletion_done.email_to_sopport_button.title,Написать в техподдержку,Write to technical support
+email_to_delete_account_request.subject,Прошу удалить мой аккаунт!,Please delete my account!
+email_to_delete_account_request.body,Прошу удалить мой аккаунт {email} и все связанные с ним данные.,Please delete my account {email} and all data associated with it.
+contact_to_support,\nНапишите нам в техподдержку если проблему не удаëтся решить.,\nWrite to our technical support if the problem cannot be solved.
+delete_account_error.requires_recent_login,С момента последней авторизации прошло слишком много времени. Пожалуйста перезайдите в аккаунт.@:contact_to_support,Too much time has passed since the last login. Please re-login.@:contact_to_support
+delete_account_error.too_many_requests,Слишком много запросов. Повторите попытку позже.@:contact_to_support,Too many requests. Please try again later.@:contact_to_support
+delete_account_error.network_request_failed,Проблема с интернет соединением.@:contact_to_support,Internet connection problem.@:contact_to_support
+delete_account_error.unknown,Возможно у вас нет соединения с интернетом.@:contact_to_support,You may not be connected to the internet.@:contact_to_support
+email_was_successfully_send_message.message,На твою почту отправлено письмо со ссылкой для сброса пароля.,An email has been sent to your email address with a link to reset your password.
+email_was_successfully_send_message.action_button.title,Хорошо,Ok
+notification.assess_mood.title,Оцени своё настроение,Assess your mood
+notification.assess_mood.subtitle,Нажми для оценки,Click to assess
